@@ -1,0 +1,23 @@
+.Button {
+  width: 180px;
+  height: 40px;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: transparent;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.singUp{
+  width: 140px;
+  height: 40px;
+  background-color: #69b9ff;
+}

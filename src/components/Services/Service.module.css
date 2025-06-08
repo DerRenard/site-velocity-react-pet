@@ -1,0 +1,28 @@
+.service{
+  width: 460px;
+  height: 550px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.serviceImage{
+  width: 430px;
+  height: 287px;
+}
+.serviceHeadline{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.serviceDescription{
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}

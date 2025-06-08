@@ -1,0 +1,24 @@
+.container{
+  margin-top: 300px;
+}
+.footerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footerHeadline{
+  color: #9E9E9E;
+}
+
+.about{
+  max-width: 300px;
+}
+
+.linksSection{
+  max-width: 320px;
+}
+
+.socialSection{
+  max-width: 320px;
+}

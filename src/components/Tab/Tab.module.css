@@ -1,0 +1,67 @@
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.tabHeadline {
+  margin-top: 80px;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.tabSubHeadline{
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+.tabButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.button{
+  width: 200px;
+  height: 22px;
+  
+  border: none;
+  border-radius: 5px;
+  
+  background-color: #92A0AD;
+
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active{
+  background-color: #2E80B6;
+}
+
+.tabImage{
+  width: 940px;
+}
+
+.title{
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.description{
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+}

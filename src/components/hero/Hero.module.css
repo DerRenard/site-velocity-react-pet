@@ -1,0 +1,34 @@
+.heroBackground{
+  max-height: 600px;
+  background: url("../../../public/Pictures/hero.png") center/100% no-repeat;
+}
+
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.signUp{
+  width: 140px;
+  height: 40px;
+  background-color: #69b9ff;
+  border: none;
+}
+.heroHeadline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3.75rem;
+  letter-spacing: 4px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.heroButtons{
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}

@@ -1,0 +1,37 @@
+.servicesBackground{
+  background-color: #192024;
+  height: 800px;
+}
+
+.container {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.serviceHeadline {
+  margin-top: 80px;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.serviceSubHeadline{
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  letter-spacing: 3px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.services{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
