@@ -1,11 +1,15 @@
 import Container from "../Container/Container";
 import Footer from "./Footer";
-import styles from "./Footer.module.css";
+import styles from "./FooterContent.module.css";
+
+import twitter from "/Pictures/Twitter.svg"
+import facebook from "/Pictures/Facebook.svg"
+import pinterest from "/Pictures/Pinterest.svg"
+import google from "/Pictures/Google.svg"
 
 export default function FooterContent() {
   return (
     <div className={styles.footerContent}>
-      // тут не работает пофиксить
       <Container classes={styles.container}>
         <div className={styles.about}>
           <h1 className={styles.aboutHeadline}>about velocity</h1>
@@ -27,15 +31,13 @@ export default function FooterContent() {
         <div className={styles.socialSection}>
           <div className={styles.socialHeadline}>social</div>
           <nav className={styles.socialLinks}>
-            <li className={styles.link}><a href="#"><img src="" alt="" /> Twitter</a></li>
-            <li className={styles.link}><a href="#"><img src="" alt="" /> Facebook</a></li>
-            <li className={styles.link}><a href="#"><img src="" alt="" /> Pinterest</a></li>
-            <li className={styles.link}><a href="#"><img src="" alt="" /> Google</a></li>
-            <li className={styles.link}><a href="#"><img src="" alt="" /> Webflow</a></li>
+            <li className={styles.link}><a href="#"><img src={twitter} alt="" /> Twitter</a></li>
+            <li className={styles.link}><a href="#"><img src={facebook} alt="" /> Facebook</a></li>
+            <li className={styles.link}><a href="#"><img src={pinterest} alt="" /> Pinterest</a></li>
+            <li className={styles.link}><a href="#"><img src={google} alt="" /> Google</a></li>
           </nav>
         </div>
       </Container>
-      <Footer />
     </div>
   );
 }
