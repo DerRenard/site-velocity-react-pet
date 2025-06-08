@@ -5,6 +5,7 @@ export default function Footer() {
       <h1 className={styles.footerHeadline}>
         Copyright Velocity Inc. Made in Webflow.
         Copyright Velocity Inc. Made in Webflow.
+        Copyright Velocity Inc. Made in Webflow.
       </h1>
     </div>
   );
